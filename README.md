@@ -9,7 +9,7 @@ import pyperclip
 pyautogui.PAUSE = 2
 pyautogui.alert(" O SHOW VAI COMEÇAR, DEIXA COMIGO")
 pyautogui.hotkey('ctrl','t')
-link = "https://drive.google.com"
+link = "link"
 pyperclip.copy(link)
 pyautogui.hotkey('ctrl','v')
 pyautogui.press('enter')
@@ -34,14 +34,14 @@ fixo = df ['Valores2'] .sum()
 
 
 pyautogui.hotkey('ctrl','t')
-link = "mail.google.com"
+link = "site"
 pyperclip.copy(link)
 pyautogui.hotkey('ctrl','v')
 pyautogui.press('enter')
 time.sleep(8)
 pyautogui.click(72,175)
 time.sleep(4)
-pyautogui.write('@gmail.com')
+pyautogui.write('@aaaaa.com')
 pyautogui.press('tab')
 pyautogui.press('tab')
 assunto = "Relatório de Despesas"
